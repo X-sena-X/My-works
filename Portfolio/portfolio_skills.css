@@ -1,0 +1,130 @@
+* {
+    position: relative;
+    overflow-x: hidden;
+    background-color: rgb(24, 24, 24);
+    margin:0;
+    padding: 0;
+}
+
+.container .text-zone{
+    width:50vw;
+    height:515px;
+    position:relative;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-top:4rem;
+    overflow-y:auto;
+
+}
+.container{
+    display: flex;
+}
+.container .text-zone header{
+    width:100%;
+    height:120px;
+    margin-bottom:26px;
+    line-height:56px;
+}
+.container .text-zone header h2{
+    color: rgb(8,253,204);
+    font-weight: bold;
+    font-family: "Open Sans","sans-serif";
+    font-size: 45px;
+}
+.container .text-zone p{
+    width:100%;
+    color:#fff;
+    height:auto;
+    margin-bottom: 15px;
+
+}
+.container .skills{
+    width:50vw;
+    height:515px;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-top:4rem;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.container .skills ul li{
+    list-style: none;
+    width:100%;
+    height:40px;
+    margin-bottom: 1rem;;
+}
+.container .skills ul li h3{
+    color:#fff; 
+}
+.container .skills ul li .bar{
+    display:block;
+    height:8px;
+    height:1px solid #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: all 0.6s ;
+}
+.container .skills ul li .bar span{
+    height:8px;
+    float:left;
+}
+.container .skills ul li .bar .bar-html{
+    background-color: rgb(190, 40, 157);
+}
+.container .skills ul li .bar .bar-html{
+    width:90%;
+    animation: bar-html 3s;   
+}
+.container .skills ul li .bar .bar-css{
+    background-color: rgb(8,253,204);
+}
+.container .skills ul li .bar .bar-css{
+    width:70%;
+    animation: bar-css 3s;   
+}
+.container .skills ul li .bar .bar-js{
+    background-color: rgb(190, 40, 157);
+}
+.container .skills ul li .bar .bar-js{
+    width:40%;
+    animation: bar-js 3s;   
+}
+.container .skills ul li .bar .bar-php{
+    background-color: rgb(8,253,204);
+}
+.container .skills ul li .bar .bar-php{
+    width:10%;
+    animation: bar-php 3s;   
+}
+@keyframes bar-html{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+@keyframes bar-css{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:70%;
+    }
+}
+@keyframes bar-js{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:40%;
+    }
+}
+@keyframes bar-php{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:10%;
+    }
+}
