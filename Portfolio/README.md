@@ -8,7 +8,7 @@
             https://sena.lovestoblog.com/
  
  
- I have not completed this page.It's only a insight of it.
+ This page is not fully developed .It's only a insight of it.
  
  This page is not responsive still. I'm working on it.
  
