@@ -5,7 +5,7 @@
  
  ## use this url to view the page (use laptop or computer)
  
-            https://sena.lovestoblog.com/
+            http://sena.lovestoblog.com/
  
  
  This page is not fully developed .It's only a insight of it.
