@@ -26,3 +26,8 @@ $("#page-container .sidebar #sidebar-wrapper .sidebar-nav li a").on("click", fun
     const href = $(this).attr("href");
     $("html").animate({ scrollTop: $(href).offset().top }, 800);
 });
+var preloader = document.getElementById('preloader');
+
+function myFunction(){
+    preloader.style.display = "none";
+}
